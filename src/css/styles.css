@@ -1,0 +1,105 @@
+* {
+  margin:0;
+  padding: 0;
+  border:0;
+}
+
+header {
+  background-color: #50C5CF;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: medium;
+  text-transform: uppercase;
+  
+} 
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  background-repeat: no-repeat;
+ }
+
+ section {
+  background-image: url('../images/people.jpg');
+  background-size: cover;
+  overflow: hidden;
+ }
+
+.formContainer {
+  background-color: #FFFFFFBB;
+  float: right;
+  max-width: 230px;
+  margin: 20px 0;
+  padding: 30px;
+}
+
+h2, p {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+input, select {
+  box-sizing: border-box;
+  border: none;
+  margin: 5px;
+  padding: 8px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #50C5CF;
+  border-radius: 5px;
+  color: white;
+}
+
+h3 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 8px;
+  padding: 16px
+}
+
+select {
+  appearance: none;
+  background-image: url(../images/arrow.jpg);
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 10px);
+  background-position-y: center;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+footer {
+  background-color: #202021;
+  justify-content: center;
+  text-align: center;
+  padding: 16px;
+  width: 100%;
+  display: inline-block;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.description, h3{
+  color: white;
+  text-align: left;
+  max-width: 50%;
+  margin-left: 300px;
+  
+}
+
+.containerFoorter {
+  height: 150px;
+}
+
+.CarlosImg {
+  float: left;
+  padding: 16px;
+  margin-left: 10%;
+  width: 150px;
+}
+
