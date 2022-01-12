@@ -98,3 +98,11 @@ footer {
   width: 150px;
 }
 
+.btnSubmit {
+  font-weight: bolder;
+}
+
+.btnSubmit:hover {
+  background-color: green;
+}
+
